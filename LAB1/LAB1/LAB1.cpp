@@ -49,6 +49,7 @@ int main(array<System::String^>^ args)
     Console::Write(L"Enter second string: ");
     String^ compareString2 = Console::ReadLine();
 
+    // String::Compare повертає від’ємне число, нуль або додатне число, а не лише -1/0/1.
     int compareResult = String::Compare(compareString1, compareString2);
 
     Console::WriteLine();
@@ -104,6 +105,7 @@ int main(array<System::String^>^ args)
 
     String^ reversedString = L"";
 
+    // Обхід від останнього індексу до нульового формує рядок у зворотному порядку.
     for (int i = reverseSource->Length - 1; i >= 0; i--)
     {
         reversedString += reverseSource[i];
