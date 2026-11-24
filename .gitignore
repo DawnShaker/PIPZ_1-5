@@ -1,0 +1,21 @@
+# Visual Studio: локальні налаштування та результати складання
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.pdb
+*.obj
+*.pch
+*.ilk
+*.tlog/
+*.exe
+*.dll
+*.zip
+*.ZIP
